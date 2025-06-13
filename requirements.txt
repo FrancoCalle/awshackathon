@@ -1,0 +1,12 @@
+# PDF Processor Dependencies
+
+# Core dependencies
+boto3>=1.28.0  # AWS SDK for Python
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Optional but recommended
+tqdm>=4.65.0  # For progress bars
+colorlog>=6.7.0  # For colored logging

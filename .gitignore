@@ -1,0 +1,11 @@
+# Ignore all PDF files in any directory
+*.pdf
+
+# This will ignore PDFs in:
+# - Root directory: file.pdf
+# - Any subdirectory: folder/file.pdf
+# - Nested directories: folder/subfolder/file.pdf
+# - Files with any name: document.pdf, report.pdf, etc.
+
+# If you ever need to force-add a specific PDF despite this rule, you can use:
+# git add -f path/to/specific.pdf
